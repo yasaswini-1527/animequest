@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeQuest – The Anime-Inspired Programming Learning Adventure</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚔️</text></svg>">
+</head>
+<body>
+    <div class="page-bg-pattern"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">
+                <div class="brand-icon">⚔️</div>
+                <div>Anime<span class="brand-text">Quest</span></div>
+                <span class="brand-badge">RPG Learning</span>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="MissionServlet" class="nav-link">Mission Board</a></li>
+                    <li><a href="LeaderboardServlet" class="nav-link">Leaderboard</a></li>
+                    <li><a href="admin-login.jsp" class="nav-link">Mission Master</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="login.jsp" class="btn btn-secondary btn-sm">Warrior Login</a>
+                <a href="register.jsp" class="btn btn-primary btn-sm">Begin Quest</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-wrapper">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>🌸</span> Next-Gen Gamified Coding Platform
+                </div>
+                <h1 class="hero-title">
+                    Master Code as an <span>Anime Warrior</span>.
+                </h1>
+                <p class="hero-description">
+                    Embark on a virtual anime programming adventure. Solve rigorous Java, SQL, and DSA missions, earn Experience Points (XP), conquer 8 legendary warrior ranks, and claim your place on the Global Leaderboard!
+                </p>
+                <div class="hero-actions">
+                    <a href="register.jsp" class="btn btn-primary btn-lg">Start Your Adventure ⚔️</a>
+                    <a href="MissionServlet" class="btn btn-secondary btn-lg">Explore Missions 📜</a>
+                    <a href="LeaderboardServlet" class="btn btn-gold btn-lg">Global Rankings 🏆</a>
+                </div>
+            </div>
+
+            <!-- Anime Hero Crest Card Graphic -->
+            <div class="hero-graphic">
+                <div class="hero-warrior-crest">
+                    <div class="crest-avatar">
+                        <div class="crest-inner">🥷</div>
+                    </div>
+                    <div class="crest-name">Warrior Destiny</div>
+                    <div class="crest-rank">Level 1 • Rookie Ninja</div>
+
+                    <div class="progress-bar-bg" style="width: 100%; margin: 0.5rem 0 1rem;">
+                        <div class="progress-bar-fill" style="width: 65%;"></div>
+                    </div>
+
+                    <div class="crest-stat-grid">
+                        <div class="crest-stat-box">
+                            <div class="crest-stat-num" style="color: var(--primary-purple);">3,500</div>
+                            <div class="crest-stat-label">Max XP</div>
+                        </div>
+                        <div class="crest-stat-box">
+                            <div class="crest-stat-num" style="color: var(--anime-pink);">8 Ranks</div>
+                            <div class="crest-stat-label">Progression</div>
+                        </div>
+                        <div class="crest-stat-box">
+                            <div class="crest-stat-num" style="color: var(--accent-gold);">100%</div>
+                            <div class="crest-stat-label">Gamified</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Grid Section -->
+        <section>
+            <div class="section-title-wrap">
+                <div class="section-tag">RPG Gamification Pillars</div>
+                <h2 class="section-heading">How AnimeQuest Levels Up Your Coding</h2>
+            </div>
+
+            <div class="feature-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon-box icon-purple">📜</div>
+                    <h3 class="feature-card-title">Curated Coding Missions</h3>
+                    <p class="feature-card-desc">
+                        Battle through real programming missions in Object-Oriented Java, relational SQL queries, and Data Structures & Algorithms designed to build solid technical foundations.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon-box icon-pink">⭐</div>
+                    <h3 class="feature-card-title">Dynamic Rank Progression</h3>
+                    <p class="feature-card-desc">
+                        Rise from a humble Rookie Ninja to Genin, Chunin, Elite Shinobi, Shadow Warrior, and eventually achieve the supreme rank of Grandmaster as your cumulative XP soars.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon-box icon-gold">🏆</div>
+                    <h3 class="feature-card-title">Global Warrior Rankings</h3>
+                    <p class="feature-card-desc">
+                        Compete with fellow programmers across the globe. Climb the dynamic gold, silver, and bronze podium and benchmark your problem-solving prowess against top warriors.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Storyline & Call to Action Banner -->
+        <section class="card" style="text-align: center; padding: 3rem 2rem; background: linear-gradient(135deg, #ffffff 0%, #faf5ff 100%);">
+            <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 0.75rem;">Are You Ready to Begin Your Quest?</h2>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 1.75rem;">
+                Create your student warrior account in seconds, explore the active mission board, and test your knowledge against real programming challenges today!
+            </p>
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                <a href="register.jsp" class="btn btn-primary btn-lg">Create Player Account</a>
+                <a href="login.jsp" class="btn btn-secondary btn-lg">Existing Warrior Login</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div style="font-weight: 800; font-size: 1.1rem; color: var(--text-primary);">
+                Anime<span class="brand-text">Quest</span>
+            </div>
+            <div>
+                The Anime-Inspired Programming Learning Adventure &bull; Built with Java 17, Jakarta Servlets, JDBC &amp; MySQL
+            </div>
+            <div class="sakura-tag">
+                🌸 Inspiring student programmers through gamification and anime adventure
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

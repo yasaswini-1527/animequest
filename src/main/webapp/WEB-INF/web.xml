@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee"
+         xmlns:xsi="http://w3.org"
+         xsi:schemaLocation="https://jakarta.ee
+                             https://jakarta.ee/web-app_6_0.xsd"
+         version="6.0">
+
+    <display-name>AnimeQuest</display-name>
+    <description>The Anime-Inspired Programming Learning Adventure</description>
+
+    <!-- Application Context Parameter -->
+    <context-param>
+        <param-name>appName</param-name>
+        <param-value>AnimeQuest</param-value>
+    </context-param>
+
+    <!-- Welcome File List -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- Session Configuration -->
+    <session-config>
+        <session-timeout>30</session-timeout>
+        <cookie-config>
+            <http-only>true</http-only>
+        </cookie-config>
+    </session-config>
+
+</web-app>
