@@ -1,0 +1,13 @@
+# Database backup
+codequest_db.sql
+
+# Backup folder
+java_backup/
+
+# Local configuration
+.env
+.env.*
+
+# Eclipse files
+.metadata/
+.settings/
